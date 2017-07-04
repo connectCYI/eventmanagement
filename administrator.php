@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin Login</title>
+	<title>CYI Events Portal - Login</title>
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 
 		<div class="login_section">
-				
+
 			<div class = "login_form">
 				<form action="list.php" method="post">
 					<div class="login_header">
@@ -21,9 +21,9 @@
 					<button>LOGIN</button>
 				</form>
 			</div>
-		
+
 		</div>
-		
+
 
 </body>
 </html>
