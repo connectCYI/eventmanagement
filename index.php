@@ -23,11 +23,13 @@
 				<br/><br/>
 				<input type="password" name="pass" placeholder="Password" required>
 				<br/><br/>
-				<button>LOGIN</button>
-				<br/><br/>
+				<button name="Login">LOGIN</button>
+				<button name="ResetPassword">RESET PASSWORD</button>
+				<hr/>
 				<a href="#" id="myBtn">Don't have an account yet? register here</a>
 			</form>
 		</div>
+		<p>&copy 2017, Christ for Youth International, All Rights Reserved</p>
 	</div>
 </body>
 </html>
@@ -36,30 +38,9 @@
 </head>
 <body>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-	<form action="" method="post">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>New User Registration</h2>
-    </div>
-    <div class="modal-body">
-  		  <input type="text" name="username" placeholder="Username" required>
-  		  <br/><br/>
-  		  <input type="password" name="pass" placeholder="Password" required>
-  		  <br/><br/>
-  		  <button>Register Me</button>
-  		  <br/><br/>
-    </div>
-    <div class="modal-footer">
-      <p>&copy 2017, Christ for Youth International, All Rights Reserved</p>
-    </div>
-  </div>
-
-</form>
-</div>
-	<!-- JS Files -->
-	<script src="js/modal.js"></script>
+<?php
+#This calls the Modal template. I moved it into a different in order to have less lines here.
+require_once("templates/modal.php");
+?>
+<!-- JS File for Modal -->
+<script src="js/modal.js"></script>
