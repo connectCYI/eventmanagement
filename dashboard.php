@@ -39,13 +39,13 @@
 
 		</div>
 		<div class = "search">
-			<input type="text" name="Search" placeholder="Search" />
+			<form action=""><input type="text" name="Search" placeholder="Search" /></form>
 		</div>
 	</div>
 </div>
 <div id="section">
 	<div class="Content">
-		<div class = "form">
+		<div class = "">
 
 		</div>
 

@@ -1,0 +1,23 @@
+# General activities
+1. Login/logout
+2. Change Password
+3. 
+
+# Super Administrator Portal
+1. Add new Branches
+2. change user privileges
+3.
+4. change password for other users
+5. enable/disable users
+6. Enable/Disable Events
+
+# User Portal
+1. RSVP to Events
+2.
+3. View events
+
+# Branch Administrator Portal
+1. RSVP to Events
+2.
+3. View Events
+4. Add/Remove Events
